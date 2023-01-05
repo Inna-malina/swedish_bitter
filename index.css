@@ -1,0 +1,46 @@
+@import './style/1-header/header.css';
+@import './style/2-bunner/carousel.css';
+@import './style/2-bunner/bunner-promo.css';
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html{
+  font-size: 16px;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+:root {
+  --btn-bg-color: #7eb252;
+  --btn-text-color: #ffffff;
+  --title-green: #a4c58c;
+  --bg-green: #f6f9f3;
+
+  --text-color: #303030;
+  --contact-color: #9a9a9a;
+}
+
+
+
+.header-center, .footer-center {
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.center {
+  max-width: 1700px;
+  margin: 0px auto;
+}
+
+.bunner__box{
+  background-color: beige;
+}
+.bunner__wrapper{
+  position: relative;
+}
