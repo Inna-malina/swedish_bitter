@@ -10,7 +10,7 @@ arrowLeft.addEventListener('click', function(){
   if(i>7){
     i=1;
   }
-  bunner.style.background = `linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(46, 46, 46, 0.5)),url("../../assets/images/bunner/bunner-${i}.jpg")`;
+  bunner.style.background = `linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(46, 46, 46, 0.5)),url("./assets/images/bunner/bunner-${i}.jpg")`;
 
 });
 
@@ -19,6 +19,6 @@ arrowRight.addEventListener('click', function(){
   if(i<1){
     i=7;
   }
-  bunner.style.background = `linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(46, 46, 46, 0.5)),url("../../assets/images/bunner/bunner-${i}.jpg")`;
+  bunner.style.background = `linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(46, 46, 46, 0.5)),url("./assets/images/bunner/bunner-${i}.jpg")`;
 });
 
