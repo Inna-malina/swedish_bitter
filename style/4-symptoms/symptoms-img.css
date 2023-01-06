@@ -1,0 +1,7 @@
+.symptoms-bunner {
+  width: 50%;
+  height: 686px;
+  background: url('../../assets/images/pains/body.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,4 +1,5 @@
 @import './style/1-header/header.css';
+@import './style/1-header/header-black.css';
 @import './style/2-bunner/carousel.css';
 @import './style/2-bunner/bunner-promo.css';
 @import './style/3-statistic/statistic.css';
@@ -21,10 +22,12 @@ body {
 }
 
 :root {
-  --btn-bg-color: #7eb252;
+  
+  --btn-bg-color: #f6f9f3;
   --btn-text-color: #ffffff;
   --title-green: #a4c58c;
   --bg-green: #f6f9f3;
+  --btn-bg: #7eb252;
 
   --text-color: #303030;
   --contact-color: #9a9a9a;

@@ -1,13 +1,10 @@
-// =====================================
-// let black = document.querySelector('.black');
+let header = document.querySelector('.black');
 
-// window.addEventListener('scroll', function(){
-//   if(window.pageYOffset > 300){
-//     black.classList.remove('hidden');
-//     black.classList.add('visible');
-//   }
-//   else{
-//     black.classList.add('hidden');
-//     black.classList.remove('visible');
-//   }
-// });
+window.addEventListener('scroll', function(){
+  if(window.pageYOffset > 500){
+    header.classList.add('black-active');
+  }
+  else{
+    header.classList.remove('black-active');
+  }
+});

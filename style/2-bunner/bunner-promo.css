@@ -52,7 +52,7 @@
   height: 60px;
   display: flex;
   text-decoration: none;
-  background: var(--btn-bg-color);
+  background: var(--btn-bg);
   color: var(--btn-text-color);
   justify-content: center;
   align-items: center;
