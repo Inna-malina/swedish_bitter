@@ -1,17 +1,21 @@
 @import './style/1-header/header.css';
 @import './style/2-bunner/carousel.css';
 @import './style/2-bunner/bunner-promo.css';
+@import './style/3-statistic/statistic.css';
+@import './style/4-symptoms/symptoms-list.css';
+@import './style/4-symptoms/symptoms-img.css';
 
 
-*{
+* {
   margin: 0px;
   padding: 0px;
 }
-html{
+
+html {
   font-size: 16px;
 }
 
-body{
+body {
   font-family: 'Montserrat', sans-serif;
 
 }
@@ -28,19 +32,24 @@ body{
 
 
 
-.header-center, .footer-center {
+.center {
   max-width: 1200px;
   margin: 0px auto;
 }
 
-.center {
+.center-bunner {
   max-width: 1700px;
   margin: 0px auto;
 }
 
-.bunner__box{
+/* .bunner__box {
   background-color: beige;
-}
-.bunner__wrapper{
+} */
+
+.bunner__wrapper {
   position: relative;
+}
+
+section{
+  padding: 0px 0px 124px 0px;
 }

@@ -21,3 +21,4 @@ arrowRight.addEventListener('click', function(){
   }
   bunner.style.background = `linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(46, 46, 46, 0.5)),url("../../assets/images/bunner/bunner-${i}.jpg")`;
 });
+
