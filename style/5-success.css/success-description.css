@@ -1,0 +1,94 @@
+.success-secret__box {
+  padding: 231px 0px 0px 0px;
+}
+
+.bg-girl {
+  display: block;
+  position: absolute;
+  transform: translateY(-661px);
+}
+
+.success-secret__flexbox {
+  position: relative;
+  z-index: 100;
+  display: flex;
+  align-items: flex-start;
+}
+
+/* ~~~~~~ Стили для левого блока ~~~~~~~ */
+.success-secret__button-box {
+  width: 65%;
+  height: 100%;
+  position: relative;
+  border: 20px solid white;
+  transform: translate(13px,454px);
+  -webkit-transform: translate(13px,454px);
+  -moz-transform: translate(13px,454px);
+  -ms-transform: translate(13px,454px);
+  -o-transform: translate(13px,454px);
+}
+
+
+.success-secret__button-text {
+  background: white;
+    border: 1px solid var(--btn-bg);
+    padding: 40px;
+}
+
+.success-secret__button {
+  color: white;
+  text-decoration: none;
+  background: var(--btn-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+}
+
+/* ~~~~~~ Стили для правого блока ~~~~~~~ */
+.success-secret__description-box {
+  width: 64%;
+  padding: 0px 0px 0px 69px;
+  box-sizing: border-box;
+}
+
+.success-secret__title {
+  font-size: 2.7rem;
+  padding: 0px 0px 32px 0px;
+  color: var(--text-color);
+}
+
+.success-secret__list-box {}
+
+.success-secret__list {
+  list-style: none;
+  padding: 0px 0px 0px 15px;
+}
+
+.success-secret__list-title {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 0px 0px 20px 0px;
+}
+
+.success-secret__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 27px 0px 25px 32px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--text-color);
+  line-height: 20px;
+}
+
+.success-secret__item::before {
+  content: "\203A";
+  color: var(--title-green);
+  font-size: 1.5rem;
+  position: absolute;
+  right: 100%;
+}

@@ -1,0 +1,60 @@
+.black {
+  width: 100%;
+  z-index: 1000;
+  position: fixed;
+  top: 0px;
+  background: black;
+  transition: 0.5s ease all;
+  transform: translateY(-500px);
+  -webkit-transform: translateY(-500px);
+  -moz-transform: translateY(-500px);
+  -ms-transform: translateY(-500px);
+  -o-transform: translateY(-500px);
+  -webkit-transition: 0.5s ease all;
+  -moz-transition: 0.5s ease all;
+  -ms-transition: 0.5s ease all;
+  -o-transition: 0.5s ease all;
+}
+
+.black-active {
+  transform: translateY(0px);
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+}
+
+.header-delivery-two {
+  font-size: 1rem;
+  color: white;
+  line-height: 20px;
+
+}
+
+.phone-two {
+  display: flex;
+  align-items:center;
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.5px;
+}
+
+.phone-two::before {
+  content: "";
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  background-image: url("../../assets/images/phone.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.phone-text-two {
+  font-size: 0.75rem;
+  color: white;
+  font-weight: 500;
+  line-height: 21px;
+}
