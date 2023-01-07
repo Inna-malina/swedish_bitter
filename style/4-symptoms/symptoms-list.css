@@ -8,7 +8,7 @@
   width: 100%;
   height: 535px;
   bottom: -30px;
-  background: var(--btn-bg-color);
+  background: var(--bg-green);
 }
 .symptoms-flexbox {
   position:relative;
@@ -61,3 +61,4 @@
   position: absolute;
   left: 100%;
 }
+

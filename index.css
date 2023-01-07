@@ -5,6 +5,9 @@
 @import './style/3-statistic/statistic.css';
 @import './style/4-symptoms/symptoms-list.css';
 @import './style/4-symptoms/symptoms-img.css';
+@import './style/5-success.css/bg-girl.css';
+@import './style/5-success.css/btn-box.css';
+@import './style/5-success.css/success-description.css';
 
 
 * {
@@ -22,18 +25,13 @@ body {
 }
 
 :root {
-  
-  --btn-bg-color: #f6f9f3;
-  --btn-text-color: #ffffff;
+    --btn-text-color: #ffffff;
   --title-green: #a4c58c;
   --bg-green: #f6f9f3;
   --btn-bg: #7eb252;
-
   --text-color: #303030;
   --contact-color: #9a9a9a;
 }
-
-
 
 .center {
   max-width: 1200px;
@@ -41,13 +39,11 @@ body {
 }
 
 .center-bunner {
+  position: relative;
   max-width: 1700px;
   margin: 0px auto;
 }
 
-/* .bunner__box {
-  background-color: beige;
-} */
 
 .bunner__wrapper {
   position: relative;
