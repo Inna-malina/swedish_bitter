@@ -1,0 +1,48 @@
+.success-secret__box {}
+
+.success-secret__flexbox {
+  display: flex;
+  padding: 200px 0px 0px 0px;
+}
+
+/* ~~~~~~ Стили для правого блока ~~~~~~~ */
+.success-secret__description-box {
+  width: 35%;
+  padding: 35px 0px 0px 66px;
+}
+
+
+.success-secret__title {
+  font-size: var(--title-size);
+  line-height: var(--title-line-height);
+}
+
+.success-secret__list-box {
+  padding: 37px 0px 0px 0px;
+
+}
+
+.success-secret__list {
+  list-style: none;
+  padding: 44px 0px 0px 12px;
+  width: 90%;
+}
+
+.success-secret__list-title {
+    font-size: 1.1rem;
+}
+
+.success-secret__item {
+  position: relative;
+  padding: 0px 0px 53px 34px;
+  display: flex;
+  align-items: center;
+}
+
+.success-secret__item::before {
+  content: "\203A";
+  color: var(--title-green);
+  font-size: 1.5rem;
+  position: absolute;
+  right: 100%;
+}

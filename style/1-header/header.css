@@ -1,4 +1,3 @@
-
 .header__wrapper {
   display: flex;
   align-items: center;
@@ -24,7 +23,7 @@
 
 .phone {
   display: flex;
-  align-items:center;
+  align-items: center;
   text-decoration: none;
   font-size: 1.2rem;
   color: var(--text-color);
@@ -48,5 +47,22 @@
   color: var(--contact-color);
   font-weight: 500;
   line-height: 21px;
+}
 
+@media (max-width: 750px) {
+  .header-delivery, .header-phone-column {
+    display: none;
+  }
+
+  .header__wrapper{
+    position: relative;
+  }
+
+  .header__wrapper::after {
+    content: "\2630";
+    position: absolute;
+    color: var(--btn-bg);
+    right: 25px;
+    font-size: 2rem;
+  }
 }

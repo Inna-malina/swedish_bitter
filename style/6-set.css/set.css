@@ -1,0 +1,27 @@
+.set__box {
+  padding: 252px 0px 0px 0px;
+}
+
+.bg-green {
+  position: relative;  
+}
+.set-bg-green {
+}
+
+.set-title {
+  font-size: var(--title-size);
+  width: 49%;
+}
+.set-link__flexbox {
+}
+.set-link {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.set-item {
+  border: 1px solid var(--btn-bg);
+}
+.set-item__img {
+}
