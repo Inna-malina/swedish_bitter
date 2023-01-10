@@ -24,7 +24,7 @@
   width: 50%;
 }
 .symptoms-title {
-  font-size: 2.7rem;
+  font-size: var(--title-size);
   padding: 35px 0px 43px 0px;
 }
 .symptoms-list {

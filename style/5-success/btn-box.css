@@ -1,78 +1,75 @@
-@import './animation.css';
-
-.bunner-promo {
+/* ~~~~~~ Стили для левого блока ~~~~~~~ */
+.success-secret__image-box {
+  width: 51%;
+}
+.success-secret-img {
   position: relative;
-  z-index: 100;
-  display: flex;
-  justify-content: flex-start;
-
-  color: white;
 }
-
-.img-wrapper {
-  width: 40%;
+.bg-girl {
+  width: 100%;
 }
-
-.bunner-promo-img {
-  display: block;
-  padding: 100px 0px 0px 0px;
-  margin-left: auto;
-}
-
-.bunner-promo-description {
-  width: 50%;
-  padding: 170px 0px 0px 183px;
-  box-sizing: border-box;
-}
-
-@media(max-width: 1300px) {
-  .bunner-promo-description {
-    width: 50%;
-    padding: 170px 0px 0px 80px;
-    box-sizing: border-box;
-  }
-}
-
-.bunner-promo-text--one {
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  line-height: 30px;
-}
-
-.bunner-promo-title {
-  font-size: 3.9rem;
-  font-weight: 600;
-  line-height: 77px;
-  padding: 0px 0px 30px 0px;
-}
-
-.bunner-promo-text--two {
-  font-size: 1.1rem;
-  line-height: 23px;
-}
-
-.bunner-promo-btn {
-  margin: 212px auto 0px;
-  font-size: 0.9rem;
-  width: 473px;
-  text-transform: uppercase;
-  height: 60px;
-  display: flex;
-  text-decoration: none;
+.success-secret__button {
+  width: 65%;
   background: var(--btn-bg);
-  color: var(--btn-text-color);
+  display: flex;
+  margin-left: auto;
+  color: white;
   justify-content: center;
   align-items: center;
+  height: 70px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  transform: translate(-20px,-4px);
 }
 
-.bunner-promo-btn::after {
-  content: '\2192';
+.success-secret__image-box {
+
+}
+
+figcaption{
+  position: absolute;
+  width: 69%;
+  bottom: 0px;
+  right: 0px;
+  background: white;
+  margin-left: auto;
+  box-sizing: border-box;
+  padding: 59px 50px 42px 62px;
+}
+
+figcaption::before{
+  content: "";
+  position: absolute;
+  width: 94%;
+  top: 15px;
+  margin-left: auto;
+  box-sizing: border-box;
+  padding: 69px;
+  border: 1px solid var(--btn-bg);
+  transform: translateX(-46px);
+  -webkit-transform: translateX(-46px);
+  -moz-transform: translateX(-46px);
+  -ms-transform: translateX(-46px);
+  -o-transform: translateX(-46px);
+}
+
+
+.success-secret__button-text {
+
+}
+
+.success-secret__button {
+
+}
+
+
+.success-secret__button::after {
+  /* content: '\2192';
   font-size: 2rem;
   display: block;
   padding: 0px 0px 7px 20px;
   animation: arrowmove 5s linear infinite both;
-  -webkit-animation: arrowmove 5s linear infinite both;
+  -webkit-animation: arrowmove 5s linear infinite both; */
 }
 
 @keyframes arrowmove {

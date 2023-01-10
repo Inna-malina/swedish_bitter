@@ -5,9 +5,10 @@
 @import './style/3-statistic/statistic.css';
 @import './style/4-symptoms/symptoms-list.css';
 @import './style/4-symptoms/symptoms-img.css';
-@import './style/5-success.css/bg-girl.css';
-@import './style/5-success.css/btn-box.css';
-@import './style/5-success.css/success-description.css';
+@import './style/5-success/bg-girl.css';
+@import './style/5-success/btn-box.css';
+@import './style/5-success/success-description.css';
+@import './style/6-set.css/set.css';
 
 
 * {
@@ -31,6 +32,8 @@ body {
   --btn-bg: #7eb252;
   --text-color: #303030;
   --contact-color: #9a9a9a;
+  --title-size: 2.7rem;
+  --title-line-height: 50px;
 }
 
 .center {
@@ -51,4 +54,19 @@ body {
 
 section{
   padding: 0px 0px 124px 0px;
+}
+
+@media(max-width: 1425px){
+  html {
+    font-size: 14px;
+  }
+  
+}
+
+@media(max-width: 1300px){
+  html {
+    font-size: 13px;
+  }
+
+  
 }
