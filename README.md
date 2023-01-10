@@ -1,4 +1,4 @@
-## https://inna-malina.github.io/swedish_bitter/
+## «Swedish bitter»
 [ссылка на страницу проекта](https://inna-malina.github.io/swedish_bitter/) 
 
 ### Знакомство с макетом
