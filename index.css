@@ -26,7 +26,7 @@ body {
 }
 
 :root {
-    --btn-text-color: #ffffff;
+  --btn-text-color: #ffffff;
   --title-green: #a4c58c;
   --bg-green: #f6f9f3;
   --btn-bg: #7eb252;
@@ -51,17 +51,17 @@ body {
   position: relative;
 }
 
-section{
+section {
   padding: 0px 0px 124px 0px;
 }
 
-@media(max-width: 1425px){
+@media(max-width: 1425px) {
   html {
     font-size: 14px;
   }
 }
 
-@media(max-width: 1300px){
+@media(max-width: 1300px) {
   html {
     font-size: 13px;
   }
@@ -73,13 +73,22 @@ section{
   }
 }
 
-@media (max-width: 900px){
+@media (max-width: 900px) {
   html {
     font-size: 10px;
   }
 }
 
-@media (max-width: 470px){
+@media (max-width: 656px) {
+  .center {
+    margin: 0px 20px;
+  }
+  section {
+    padding: 0px 0px 90px 0px;
+  }
+}
+
+@media (max-width: 470px) {
   html {
     font-size: 9px;
   }
