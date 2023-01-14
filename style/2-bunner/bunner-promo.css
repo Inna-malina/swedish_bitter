@@ -5,7 +5,6 @@
   z-index: 100;
   display: flex;
   justify-content: flex-start;
-
   color: white;
 }
 
@@ -23,14 +22,6 @@
   width: 50%;
   padding: 170px 0px 0px 183px;
   box-sizing: border-box;
-}
-
-@media(max-width: 1300px) {
-  .bunner-promo-description {
-    width: 50%;
-    padding: 170px 0px 0px 80px;
-    box-sizing: border-box;
-  }
 }
 
 .bunner-promo-text--one {
@@ -73,6 +64,69 @@
   padding: 0px 0px 7px 20px;
   animation: arrowmove 5s linear infinite both;
   -webkit-animation: arrowmove 5s linear infinite both;
+}
+
+@media(max-width: 1300px) {
+  .bunner-promo-description {
+    width: 50%;
+    padding: 170px 0px 0px 80px;
+    box-sizing: border-box;
+  }
+}
+
+@media(max-width: 1030px) {
+  .bunner-promo-img {
+    padding: 194px 0px 0px 0px;
+    width: 199px;
+  }
+
+  .bunner-promo-btn {
+    width: 100%;
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 900px) {
+  .bunner-promo-description {
+    width: 50%;
+    padding: 120px 0px 0px 80px;
+    box-sizing: border-box;
+  }
+
+  .bunner-promo-img {
+    padding: 117px 0px 0px 0px;
+    width: 199px;
+  }
+
+  .bunner-promo-btn {
+    margin: 180px auto 0px;
+
+  }
+}
+
+@media (max-width: 860px) {
+  .bunner-promo-description {
+    padding: 120px 0px 0px 38px;
+  }
+}
+
+@media (max-width: 741px) {
+  .bunner-promo-description {
+    padding: 40px 0px 0px 0px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-wrapper {
+    display: none;
+  }
+
+  .bunner-promo-btn {
+    margin: 110px auto 0px;
+    width: 95%;
+  }
 }
 
 @keyframes arrowmove {

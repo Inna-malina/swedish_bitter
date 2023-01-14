@@ -47,7 +47,6 @@ body {
   margin: 0px auto;
 }
 
-
 .bunner__wrapper {
   position: relative;
 }
@@ -60,13 +59,28 @@ section{
   html {
     font-size: 14px;
   }
-  
 }
 
 @media(max-width: 1300px){
   html {
     font-size: 13px;
   }
+}
 
-  
+@media(max-width: 1030px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 900px){
+  html {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 470px){
+  html {
+    font-size: 9px;
+  }
 }
