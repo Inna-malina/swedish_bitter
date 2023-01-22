@@ -1,8 +1,8 @@
-.bg-green{
-  position:relative;
+.bg-green {
+  position: relative;
 }
 
-.symptoms-bg-green{
+.symptoms-bg-green {
   position: absolute;
   z-index: 0;
   width: 100%;
@@ -10,8 +10,9 @@
   bottom: -30px;
   background: var(--bg-green);
 }
+
 .symptoms-flexbox {
-  position:relative;
+  position: relative;
   z-index: 100;
   display: flex;
   justify-content: center;
@@ -20,17 +21,20 @@
   gap: 172px;
   color: var(--text-color)
 }
+
 .symptoms-list-box {
   width: 50%;
 }
+
 .symptoms-title {
   font-size: var(--title-size);
   padding: 35px 0px 43px 0px;
 }
+
 .symptoms-list {
   text-transform: uppercase;
   padding-left: 37px;
-  list-style: none;  
+  list-style: none;
   counter-reset: li;
 }
 
@@ -38,7 +42,7 @@
   cursor: pointer;
   position: relative;
   display: flex;
-  align-items: center;  
+  align-items: center;
   border-bottom: 1px solid #e4eddc;
   padding: 27px 0px 25px 19px;
   font-size: 0.8rem;
@@ -46,7 +50,7 @@
 
 }
 
-.symptoms-item::before{
+.symptoms-item::before {
   content: counter(li);
   counter-increment: li;
   position: absolute;
@@ -54,11 +58,21 @@
   color: var(--title-green);
 }
 
-.symptoms-item::after{
-  content:"\203A";
+.symptoms-item::after {
+  content: "\203A";
   color: var(--title-green);
   font-size: 1.5rem;
   position: absolute;
   left: 100%;
 }
 
+@media (max-width: 1255px) {
+  .symptoms-flexbox {
+    gap: 76px;
+  }
+
+  .symptoms-list-box {
+    width: 40%;
+  }
+
+}

@@ -5,6 +5,7 @@
   background: url('../../assets/images/pains/body.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .symptoms-button {
@@ -64,8 +65,8 @@
   border-radius: 100px;
   width: 25px;
   height: 25px;
-  animation: pulseTwo 1.5s linear  infinite;
-  -webkit-animation: pulseTwo 1.5s linear  infinite;
+  animation: pulseTwo 1.5s linear infinite;
+  -webkit-animation: pulseTwo 1.5s linear infinite;
 }
 
 @keyframes pulse {
@@ -123,7 +124,7 @@
     -moz-transform: scale(2);
     -ms-transform: scale(2);
     -o-transform: scale(2);
-}
+  }
 
   30% {
     transform: scale(2);
@@ -132,7 +133,7 @@
     -moz-transform: scale(2.5);
     -ms-transform: scale(2.5);
     -o-transform: scale(2.5);
-}
+  }
 
   100% {
     transform: scale(2);
@@ -141,14 +142,13 @@
     -moz-transform: scale(2.5);
     -ms-transform: scale(2.5);
     -o-transform: scale(2.5);
-}
+  }
 }
 
 .circle-1 {
   top: 200px;
   left: 165px;
 }
-
 
 .circle-2 {
   top: 129px;
@@ -182,4 +182,144 @@
 
 .circle-hidden {
   visibility: hidden;
+}
+
+@media (max-width: 1255px) {
+  .symptoms-bunner {
+    width: 40%;
+    height: 686px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .symptoms-bunner {
+    width: 40%;
+    height: 602px;
+    background-position: inherit;
+  }
+
+  .symptoms-circle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .circle-1 {
+    top: 193px;
+    left: 130px;
+  }
+
+  .circle-6 {
+    top: 426px;
+    left: 244px;
+  }
+
+
+}
+
+@media (max-width: 1000px) {
+  .symptoms-bunner {
+    width: 40%;
+    height: 540px;
+    background-position: center;
+  }
+
+  .symptoms-circle {
+    width: 40px;
+    height: 40px;
+  }
+
+  .circle-1 {
+    top: 172px;
+    left: 115px;
+  }
+
+  .circle-2 {
+    top: 120px;
+    left: 178px;
+  }
+
+  .circle-5 {
+    top: 53px;
+    left: 188px;
+  }
+
+  .circle-6 {
+    top: 332px;
+    left: 212px;
+  }
+
+  .circle-7 {
+    top: 28px;
+    left: 161px;
+  }
+
+  .symptoms-button {
+    transform: translateY(650px);
+    -webkit-transform: translateY(650px);
+    -moz-transform: translateY(650px);
+    -ms-transform: translateY(650px);
+    -o-transform: translateY(650px);
+  }
+
+}
+
+@media (max-width: 935px) {
+  .circle-3 {
+    top: 17px;
+    left: 181px;
+  }
+}
+
+@media (max-width: 886px) {
+  .circle-1 {
+    top: 172px;
+    left: 87px;
+  }
+
+  .circle-2 {
+    top: 129px;
+    left: 156px;
+  }
+
+  .circle-3 {
+    top: 35px;
+    left: 134px;
+  }
+
+  .circle-4 {
+    top: 84px;
+    left: 186px;
+  }
+
+  .circle-5 {
+    top: 70px;
+    left: 158px;
+  }
+
+  .circle-6 {
+    top: 332px;
+    left: 172px;
+  }
+
+  .circle-7 {
+    top: 28px;
+    left: 130px;
+  }
+}
+
+@media (max-width: 801px) {
+  .symptoms-flexbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 0px 0px 0px;
+  }
+
+  .symptoms-list-box {
+    width: 95%;
+  }
+
+  .symptoms-bunner {
+    display: none;
+  }
 }
