@@ -29,7 +29,7 @@
 }
 
 .success-secret__list-title {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .success-secret__item {
@@ -45,4 +45,30 @@
   font-size: 1.5rem;
   position: absolute;
   right: 100%;
+}
+
+@media (max-width: 1341px) {
+  .success-secret__description-box {
+    width: 45%;
+    padding: 10px 0px 0px 33px;
+  }
+}
+
+@media (max-width: 1193px) {
+  .success-secret__item {
+    padding: 0px 0px 40px 34px;
+  }
+}
+
+@media (max-width: 1089px) {
+  .success-secret__item {
+    padding: 0px 0px 26px 34px;
+  }
+}
+
+@media (max-width: 801px) {
+  .success-secret__description-box {
+    width: 80%;
+    padding: 10px 0px 0px 33px;
+}
 }
