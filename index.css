@@ -9,15 +9,21 @@
 @import './style/5-success/btn-box.css';
 @import './style/5-success/success-description.css';
 @import './style/6-set.css/set.css';
+@import './style/7-ingredients/ingredients.css';
+@import './style/8-warranty/warranty.css';
+@import './style/9-footer/footer.css';
+@import './style/modal-window/modal-window.css';
 
 
 * {
   margin: 0px;
   padding: 0px;
+  box-sizing:border-box;
 }
 
 html {
   font-size: 16px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -37,6 +43,8 @@ body {
 }
 
 .center {
+  position: relative;
+  z-index: 100;
   max-width: 1200px;
   margin: 0px auto;
 }
@@ -49,6 +57,10 @@ body {
 
 .bunner__wrapper {
   position: relative;
+}
+
+a {
+  text-decoration: none;
 }
 
 section {

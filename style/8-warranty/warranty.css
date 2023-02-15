@@ -1,0 +1,98 @@
+.warranty__box {
+  padding: 195px 0px 100px 0px;
+}
+
+
+
+.warranty-bg-green {
+  background: var(--bg-green);
+  width: 100%;
+  height: 567px;
+  position: absolute;
+  top: 187px;
+}
+
+
+
+.warranty__flexbox {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  gap: 89px;
+
+}
+
+.warranty-order__box {
+  width: 58%;
+
+}
+
+.warranty-order__wrapper {
+  width: 88%;
+  margin-left: auto;
+}
+
+.warranty-order__title {
+  font-size: 2.4rem;
+  padding: 0px 0px 81px 24px;
+
+}
+
+.warranty-order__text {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.9rem;
+  line-height: 20px;
+  padding: 0px 0px 44px 0px;
+}
+
+.fieldset__box{
+  background: white;
+  padding: 20px 30px;
+}
+
+.warranty-order__fieldset {
+  border:2px solid var(--title-green);
+
+}
+.warranty-order__legend {
+ padding: 0px 5px 0px 5px;
+ margin: 0px 0px 0px 30px;
+ color: var(--title-green);
+
+}
+.warranty-order__description:nth-child(1) {
+  padding: 0px 0px 33px 0px;
+}
+
+.fieldset__text{
+  padding: 38px 54px;
+}
+.warranty-order__button {
+  cursor: pointer;
+  width: 65%;
+  height: 55px;
+  color: white;
+  font-size: 0.9rem;
+  background: var(--btn-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  transform: translate(188px, 0px);
+  -webkit-transform: translate(188px, 0px);
+  -moz-transform: translate(188px, 0px);
+  -ms-transform: translate(188px, 0px);
+  -o-transform: translate(188px, 0px);
+}
+.warranty-order__button::after{
+  content: '\2192';
+  font-size: 2rem;
+  display: block;
+  padding: 0px 0px 7px 20px;
+  animation: arrowmove 5s linear infinite both;
+  -webkit-animation: arrowmove 5s linear infinite both;
+}
+.warranty-certificate__box {
+  width: 37%
+}
