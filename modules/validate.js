@@ -63,7 +63,7 @@ function toGetData() {
     //~ запускаем прелоадер
     preloader.classList.remove('preloader-none');
     let request = new XMLHttpRequest();
-    request.open('GET', 'https://inna-malina.github.io/data/thankyou/thankyou.json');
+    request.open('GET', 'https://inna-malina.github.io/files-datas/thankyou/thankyou.json');
 
     let formData = new FormData(form);
     request.send(formData);
