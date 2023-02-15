@@ -58,13 +58,23 @@ function toGetData() {
     //~ запускаем прелоадер
     preloader.classList.remove('preloader-none');
     let request = new XMLHttpRequest();
-    request.open('GET', './thankyou.js');
+    request.open('GET', 'https://inna-malina.github.io/swedish_bitter/modules/thankyou.js');
 
     let formData = new FormData(form);
     request.send(formData);
 
     request.addEventListener('load', function () {
-
+      if (request.status === 200) {
+        //~ если ответ положительный, прелоадер отключается
+        preloader.classList.add('preloader-none');
+        let data = JSON.parse(request.response);
+        console.log(data);
+        
+      } else {
+        alert('Что-то пошло не так. Попробуйте позже');
+        //~ если ответ положительный, прелоадер отключается
+        preloader.classList.add('preloader-none');
+      }
     });
   });
 
