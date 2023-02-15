@@ -1,0 +1,16 @@
+.footer__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 26px 15px;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.footer-text {
+  font-size: 0.8rem;
+}
+
+.footer-phone {
+  margin-left: 0px;
+  text-align: right;
+}

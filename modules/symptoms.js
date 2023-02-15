@@ -11,9 +11,7 @@ symtomsList.addEventListener('click', function (event) {
     if (act.dataset.symptoms == circle.dataset.symptoms) {
       circle.classList.remove('circle-hidden');
     }
-
   });
-
 });
 
 // ^ Очищаем картинку от кружков
@@ -21,4 +19,4 @@ btnSymptoms.addEventListener('click', function(){
   circlesBoxes.forEach(function (circle){
     circle.classList.add('circle-hidden');
   });
-})
+});

@@ -29,7 +29,7 @@
   -o-transform: translate(-18px, -4px);
 }
 
-.success-secret__button--mobile{
+.success-secret__button--mobile {
   display: none;
 }
 
@@ -138,6 +138,13 @@ figcaption::before {
   figcaption {
     padding: 59px 50px 118px 62px;
   }
+
+  figcaption {
+
+    bottom: -16px;
+    right: 1px;
+
+  }
 }
 
 @media (max-width: 1341px) {
@@ -201,10 +208,12 @@ figcaption::before {
   .success-secret__image-box {
     display: none;
   }
-  .success-secret__button--mobile{
+
+  .success-secret__button--mobile {
     display: flex;
     justify-content: center;
     margin-left: inherit;
     width: 100%;
+    height: 70px;
   }
 }
