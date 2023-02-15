@@ -50,7 +50,12 @@ let form = document.querySelector('form');
 let modalElements = document.querySelector('.modal-elements');
 let modalBox = document.querySelector('.modal-window');
 let preloader = document.querySelector('.preloader');
+let modalHeader = document.querySelector('.modal-header');
 
+let modalOrder = document.querySelector('.modal-header-order');
+let headerTitle = document.querySelector('.modal-title');
+let headerSubTitle = document.querySelector('.modal-subtitle');
+let headerImg = document.querySelector('.modal-wrapper-img');
 //отправка запроса на сервер
 function toGetData() {
   form.addEventListener('submit', function (e) {
@@ -58,7 +63,7 @@ function toGetData() {
     //~ запускаем прелоадер
     preloader.classList.remove('preloader-none');
     let request = new XMLHttpRequest();
-    request.open('GET', 'https://inna-malina.github.io/swedish_bitter/modules/thankyou.js');
+    request.open('GET', 'https://inna-malina.github.io/data/thankyou/thankyou.json');
 
     let formData = new FormData(form);
     request.send(formData);
@@ -68,15 +73,23 @@ function toGetData() {
         //~ если ответ положительный, прелоадер отключается
         preloader.classList.add('preloader-none');
         let data = JSON.parse(request.response);
-        console.log(data);
-        
+        form.style.display = "none";
+        modalOrder.classList.remove('modal-disactive');
+        modalOrder.classList.add('active-order');
+
+        for (let key in data) {
+          headerTitle.textContent = data[key].title;
+          headerSubTitle.textContent = data[key].subtitle;
+          headerImg.src = data[key].img;
+        }
+
       } else {
         alert('Что-то пошло не так. Попробуйте позже');
         //~ если ответ положительный, прелоадер отключается
         preloader.classList.add('preloader-none');
       }
+
     });
   });
 
 }
-

@@ -2,17 +2,26 @@
 (function () {
   let modal = document.querySelector('.modal-window__box');
   let closeModal = document.querySelector('.modal-close');
-  let btnOrder = document.querySelector('.warranty-order__button');
+  let btnsOrder = document.querySelectorAll('.button-order');
   let form = document.querySelector('form');
+  let modalOrder = document.querySelector('.modal-header-order');
 
-  btnOrder.addEventListener('click', function () {
-    modal.classList.remove('modal-disactive');
+  btnsOrder.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      modal.classList.remove('modal-disactive');
+    });
   });
+
+
 
   //~ закрываем модальное окно
   function toCloseModal() {
     modal.classList.add('modal-disactive');
     form.reset();
+    form.style.display = "block";
+    modalOrder.classList.add('modal-disactive');
+    modalOrder.classList.remove('active-order');
+
   }
   // закрытие по клику на крестик
   closeModal.addEventListener('click', toCloseModal);
