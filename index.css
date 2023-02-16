@@ -18,7 +18,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -79,6 +79,12 @@ section {
   }
 }
 
+@media(max-width: 1240px) {
+  .center {
+    padding: 0px 20px;
+  }
+}
+
 @media(max-width: 1030px) {
   html {
     font-size: 11px;
@@ -91,7 +97,7 @@ section {
   }
 }
 
-@media (max-width: 801px){
+@media (max-width: 801px) {
   .center {
     margin: 0px 20px;
   }
@@ -101,6 +107,7 @@ section {
   .center {
     margin: 0px 20px;
   }
+
   section {
     padding: 0px 0px 90px 0px;
   }

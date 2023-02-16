@@ -12,8 +12,6 @@
     });
   });
 
-
-
   //~ закрываем модальное окно
   function toCloseModal() {
     modal.classList.add('modal-disactive');
@@ -21,7 +19,6 @@
     form.style.display = "block";
     modalOrder.classList.add('modal-disactive');
     modalOrder.classList.remove('active-order');
-
   }
   // закрытие по клику на крестик
   closeModal.addEventListener('click', toCloseModal);

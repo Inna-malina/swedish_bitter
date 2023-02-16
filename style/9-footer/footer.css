@@ -14,3 +14,69 @@
   margin-left: 0px;
   text-align: right;
 }
+
+@media (max-width: 1146px) {
+  footer {
+    padding: 51px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 1027px) {
+  footer {
+    padding: 70px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 925px) {
+  footer {
+    padding: 108px 0px 0px 0px;
+  }
+
+  .footer-text {
+    font-size: 0.8rem;
+    display: none;
+  }
+}
+
+@media (max-width: 795px) {
+  footer {
+    padding: 80px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 784px) {
+  footer {
+    padding: 30px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 750px) {
+  footer {
+    padding: 30px 0px 0px 0px;
+  }
+
+  .footer-phone {
+    display: block;
+  }
+}
+
+@media (max-width: 666px) {
+  footer {
+    padding: 50px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 620px) {
+  footer {
+    padding: 70px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 495px) {
+  .footer__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+}

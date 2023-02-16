@@ -64,11 +64,11 @@
     display: none;
   }
 
-  .header__wrapper{
+  .header-phone{
     position: relative;
   }
 
-  .header__wrapper::after {
+  .header-phone::after {
     content: "\2630";
     position: absolute;
     color: var(--btn-bg);
